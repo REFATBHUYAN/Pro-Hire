@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Home from './component/Home';
 import Blog from './component/Blog';
+import FirstPage from "./component/FirstPage";
 
 const router = createBrowserRouter([
   {
@@ -16,7 +17,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <div>this is statistics component details</div>,
+        element: <FirstPage></FirstPage>,
       },
       {
         path: "/statistics",

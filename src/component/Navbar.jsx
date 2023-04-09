@@ -52,9 +52,12 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-2xl text-purple-700">
+        <Link
+          to={"/"}
+          className="btn btn-ghost normal-case text-2xl text-purple-700"
+        >
           ProHire
-        </a>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
