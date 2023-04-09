@@ -17,9 +17,7 @@ const Home = () => {
     <div className=" max-w-7xl mx-auto w-full">
       <JobContext.Provider value={jobDatas}>
         <Navbar></Navbar>
-        <div className="h-[calc(100vh-80px)]">
-          <Outlet></Outlet>
-        </div>
+        <Outlet></Outlet>
         <Footer></Footer>
       </JobContext.Provider>
     </div>
