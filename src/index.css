@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.active{
+  @apply font-bold font-medium tracking-wide text-purple-500 transition-colors duration-200
+}
