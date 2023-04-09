@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "company_logo": "https://example.com/company1.png",
+    "job_title": "Software Engineer",
+    "company_name": "ABC Inc.",
+    "remote_or_onsite": "Remote",
+    "location": "Any",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$100,000 - $120,000",
+    "job_description": "We're seeking a talented software engineer to join our team...",
+    "job_responsibility": "Develop and maintain software applications...",
+    "educational_requirements": "Bachelor's degree in computer science or related field",
+    "experiences": "5+ years of experience in software development",
+    "contact_information": {
+      "phone": "+1 555-555-1234",
+      "email": "jobs@abcinc.com"
+    }
+  },
+  {
+    "id": 2,
+    "company_logo": "https://example.com/company2.png",
+    "job_title": "Marketing Manager",
+    "company_name": "XYZ Corp.",
+    "remote_or_onsite": "Onsite",
+    "location": "New York, NY",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$80,000 - $100,000",
+    "job_description": "We're looking for a creative and strategic marketing manager...",
+    "job_responsibility": "Develop and execute marketing strategies...",
+    "educational_requirements": "Bachelor's degree in marketing or related field",
+    "experiences": "7+ years of experience in marketing",
+    "contact_information": {
+      "phone": "+1 555-555-5678",
+      "email": "jobs@xyzcorp.com"
+    }
+  },
+  {
+    "id": 3,
+    "company_logo": "https://example.com/company3.png",
+    "job_title": "Data Analyst",
+    "company_name": "123 Co.",
+    "remote_or_onsite": "Remote",
+    "location": "Any",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$70,000 - $90,000",
+    "job_description": "We're seeking a data analyst to join our team...",
+    "job_responsibility": "Analyze data and provide insights to stakeholders...",
+    "educational_requirements": "Bachelor's degree in statistics or related field",
+    "experiences": "3+ years of experience in data analysis",
+    "contact_information": {
+      "phone": "+1 555-555-9012",
+      "email": "jobs@123co.com"
+    }
+  },
+  {
+    "id": 4,
+    "company_logo": "https://example.com/company4.png",
+    "job_title": "Graphic Designer",
+    "company_name": "ABC Inc.",
+    "remote_or_onsite": "Onsite",
+    "location": "San Francisco, CA",
+    "fulltime_or_parttime": "Part-time",
+    "salary": "$50,000 - $70,000",
+    "job_description": "We're looking for a talented graphic designer to join our team...",
+    "job_responsibility": "Create visually appealing designs for various projects...",
+    "educational_requirements": "Bachelor's degree in graphic design or related field",
+    "experiences": "2+ years of experience in graphic design",
+    "contact_information": {
+      "phone": "+1 555-555-2345",
+      "email": "jobs@abcinc.com"
+    }
+  },
+  {
+    "id": 5,
+    "company_logo": "https://example.com/company5.png",
+    "job_title": "Sales Manager",
+    "company_name": "Acme Corp.",
+    "remote_or_onsite": "Onsite",
+    "location": "Los Angeles, CA",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$90,000 - $110,000",
+    "job_description": "We're seeking a dynamic sales manager to join our team...",
+    "job_responsibility": "Manage and lead sales team to meet revenue targets...",
+    "educational_requirements": "Bachelor's degree in business or related field",
+    "experiences": "5+ years of experience in sales management",
+    "contact_information": {
+      "phone": "+1 555-555-3456",
+      "email": "jobs@acmecorp.com"
+    }
+  },
+  {
+    "id": 6,
+    "company_logo": "https://example.com/company6.png",
+    "job_title": "Content Writer",
+    "company_name": "The Blog Co.",
+    "remote_or_onsite": "Remote",
+    "location": "Any",
+    "fulltime_or_parttime": "Part-time",
+    "salary": "$30 - $40 per hour",
+    "job_description": "We're looking for a talented content writer to join our team...",
+    "job_responsibility": "Write engaging and informative articles for our blog...",
+    "educational_requirements": "Bachelor's degree in English, journalism, or related field",
+    "experiences": "2+ years of experience in content writing",
+    "contact_information": {
+      "phone": "+1 555-555-6789",
+      "email": "jobs@theblogco.com"
+    }
+  }
+]

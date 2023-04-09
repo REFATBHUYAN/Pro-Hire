@@ -2,19 +2,19 @@ import React, { createContext } from "react";
 import Navbar from "./Navbar";
 import { Outlet, useLoaderData } from "react-router-dom";
 
-export const QuizContext = createContext({});
+export const JobContext = createContext({});
 
 // const [data, setData] = useState(null);
 
 const Home = () => {
-  const quizeData = useLoaderData();
-  const quizes = quizeData.data;
+  const jobDatas = useLoaderData();
+
   return (
     <div className="m-5">
-      <QuizContext.Provider value={quizes}>
+      <JobContext.Provider value={jobDatas}>
         <Navbar></Navbar>
         <Outlet></Outlet>
-      </QuizContext.Provider>
+      </JobContext.Provider>
     </div>
   );
 };
