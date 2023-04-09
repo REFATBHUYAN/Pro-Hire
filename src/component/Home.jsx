@@ -1,6 +1,7 @@
 import React, { createContext, useState } from "react";
 import Navbar from "./Navbar";
 import { Outlet, useLoaderData } from "react-router-dom";
+import Footer from "./Footer";
 
 export const JobContext = createContext({});
 
@@ -16,7 +17,10 @@ const Home = () => {
     <div className=" max-w-7xl mx-auto w-full">
       <JobContext.Provider value={jobDatas}>
         <Navbar></Navbar>
-        <Outlet></Outlet>
+        <div className="h-[calc(100vh-80px)]">
+          <Outlet></Outlet>
+        </div>
+        <Footer></Footer>
       </JobContext.Provider>
     </div>
   );

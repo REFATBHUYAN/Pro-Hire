@@ -10,7 +10,6 @@ const FirstPage = () => {
       <Banner></Banner>
       <JobCatagory></JobCatagory>
       <FeaturedJobs></FeaturedJobs>
-      <Footer></Footer>
     </div>
   );
 };
