@@ -10,7 +10,7 @@ const Home = () => {
   const jobDatas = useLoaderData();
 
   return (
-    <div className="m-5">
+    <div className="m-5 max-w-7xl mx-auto">
       <JobContext.Provider value={jobDatas}>
         <Navbar></Navbar>
         <Outlet></Outlet>

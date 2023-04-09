@@ -54,7 +54,7 @@ const Navbar = () => {
         </div>
         <Link
           to={"/"}
-          className="btn btn-ghost normal-case text-2xl text-purple-700"
+          className="btn btn-ghost normal-case text-4xl font-bold text-purple-700"
         >
           ProHire
         </Link>
