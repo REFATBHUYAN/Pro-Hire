@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "company_logo": "https://example.com/company1.png",
+    "company_logo": "https://i.ibb.co/CzywMk1/google-1-1-1.png",
     "job_title": "Software Engineer",
-    "company_name": "ABC Inc.",
+    "company_name": "Google LLC",
     "remote_or_onsite": "Remote",
     "location": "Any",
     "fulltime_or_parttime": "Full-time",
@@ -14,14 +14,14 @@
     "experiences": "5+ years of experience in software development",
     "contact_information": {
       "phone": "+1 555-555-1234",
-      "email": "jobs@abcinc.com"
+      "email": "jobs@google.com"
     }
   },
   {
     "id": 2,
-    "company_logo": "https://example.com/company2.png",
+    "company_logo": "https://i.ibb.co/kc2TH87/netflix-4-1.png",
     "job_title": "Marketing Manager",
-    "company_name": "XYZ Corp.",
+    "company_name": "Netflix",
     "remote_or_onsite": "Onsite",
     "location": "New York, NY",
     "fulltime_or_parttime": "Full-time",
@@ -32,14 +32,14 @@
     "experiences": "7+ years of experience in marketing",
     "contact_information": {
       "phone": "+1 555-555-5678",
-      "email": "jobs@xyzcorp.com"
+      "email": "jobs@netflix.com"
     }
   },
   {
     "id": 3,
-    "company_logo": "https://example.com/company3.png",
-    "job_title": "Data Analyst",
-    "company_name": "123 Co.",
+    "company_logo": "https://i.ibb.co/tDmDMtz/tesla-9-1.png",
+    "job_title": "Database Engineer",
+    "company_name": "Tesla",
     "remote_or_onsite": "Remote",
     "location": "Any",
     "fulltime_or_parttime": "Full-time",
@@ -50,14 +50,14 @@
     "experiences": "3+ years of experience in data analysis",
     "contact_information": {
       "phone": "+1 555-555-9012",
-      "email": "jobs@123co.com"
+      "email": "jobs@tesla.com"
     }
   },
   {
     "id": 4,
-    "company_logo": "https://example.com/company4.png",
-    "job_title": "Graphic Designer",
-    "company_name": "ABC Inc.",
+    "company_logo": "https://i.ibb.co/1sdrNjk/Group-10021.png",
+    "job_title": "Web Designer",
+    "company_name": "Airbnb",
     "remote_or_onsite": "Onsite",
     "location": "San Francisco, CA",
     "fulltime_or_parttime": "Part-time",
@@ -68,12 +68,12 @@
     "experiences": "2+ years of experience in graphic design",
     "contact_information": {
       "phone": "+1 555-555-2345",
-      "email": "jobs@abcinc.com"
+      "email": "jobs@airbnb.com"
     }
   },
   {
     "id": 5,
-    "company_logo": "https://example.com/company5.png",
+    "company_logo": "https://i.ibb.co/x3z9dwL/download.png",
     "job_title": "Sales Manager",
     "company_name": "Acme Corp.",
     "remote_or_onsite": "Onsite",
@@ -91,9 +91,9 @@
   },
   {
     "id": 6,
-    "company_logo": "https://example.com/company6.png",
+    "company_logo": "https://i.ibb.co/QJPcmv1/blogger.png",
     "job_title": "Content Writer",
-    "company_name": "The Blog Co.",
+    "company_name": "Blogger",
     "remote_or_onsite": "Remote",
     "location": "Any",
     "fulltime_or_parttime": "Part-time",
@@ -104,7 +104,7 @@
     "experiences": "2+ years of experience in content writing",
     "contact_information": {
       "phone": "+1 555-555-6789",
-      "email": "jobs@theblogco.com"
+      "email": "jobs@blogger.com"
     }
   }
 ]

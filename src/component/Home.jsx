@@ -1,4 +1,4 @@
-import React, { createContext } from "react";
+import React, { createContext, useState } from "react";
 import Navbar from "./Navbar";
 import { Outlet, useLoaderData } from "react-router-dom";
 
@@ -8,9 +8,12 @@ export const JobContext = createContext({});
 
 const Home = () => {
   const jobDatas = useLoaderData();
+  // const [data, setData] = useState(jobDatas.slice(0, 4));
+  // setData();
+  // console.log(data);
 
   return (
-    <div className="m-5 max-w-7xl mx-auto">
+    <div className=" max-w-7xl mx-auto w-full">
       <JobContext.Provider value={jobDatas}>
         <Navbar></Navbar>
         <Outlet></Outlet>

@@ -8,6 +8,7 @@ import {
 import Home from './component/Home';
 import Blog from './component/Blog';
 import FirstPage from "./component/FirstPage";
+import JobDetails from "./component/JobDetails";
 
 const router = createBrowserRouter([
   {
@@ -28,8 +29,9 @@ const router = createBrowserRouter([
         element: <div>this is jobs applied component details</div>,
       },
       {
-        path: "/jobs",
-        element: <div>this is jobs component details</div>,
+        path: "/:id",
+        loader: ({ params }) => params.id,
+        element: <JobDetails></JobDetails>,
       },
       {
         path: "/blog",
