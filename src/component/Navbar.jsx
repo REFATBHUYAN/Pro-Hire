@@ -104,7 +104,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn btn-primary">Start Applying</a>
+        <a className="btn btn-color">Start Applying</a>
       </div>
     </div>
   );

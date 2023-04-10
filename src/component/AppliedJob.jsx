@@ -42,7 +42,10 @@ const AppliedJob = () => {
       <h1 className="text-center font-bold text-4xl my-32">Applied Jobs</h1>
       <div className="w-3/4 mx-auto mb-32">
         <div className="text-end mb-5">
-          <select onChange={handleFilterBy}>
+          <select
+            className="border-purple-500 border rounded-md"
+            onChange={handleFilterBy}
+          >
             <option selected>Filter By</option>
             <option value="Remote">Remote</option>
             <option value="Onsite">Onsite</option>

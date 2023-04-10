@@ -40,7 +40,7 @@ const SingleAppliedJob = ({ job }) => {
             </div>
           </div>
           <Link to={`/job/${id}`}>
-            <button className="py-3 px-5 bg-purple-400 hover:bg-purple-600 text-white rounded-lg font-bold">
+            <button className="py-3 px-5 btn-color text-white rounded-lg font-bold">
               View Details
             </button>
           </Link>

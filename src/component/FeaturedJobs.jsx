@@ -30,7 +30,7 @@ const FeaturedJobs = () => {
         <div className="mx-auto text-center">
           <button
             onClick={() => showAllJobs()}
-            className="py-3 px-5 bg-purple-400 hover:bg-purple-600 text-white rounded-lg font-bold"
+            className="py-3 px-5 btn-color text-white rounded-lg font-bold"
           >
             See All Jobs
           </button>

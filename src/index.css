@@ -6,3 +6,6 @@
 .active{
   @apply font-bold font-medium tracking-wide text-purple-500 transition-colors duration-200
 }
+.btn-color {
+  @apply bg-gradient-to-r from-purple-400 to-purple-600
+}

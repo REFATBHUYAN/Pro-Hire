@@ -15,7 +15,7 @@ const Banner = () => {
           employers in your industry and take the next step in your professional
           journey.
         </p>
-        <button className="btn btn-primary">Get Started</button>
+        <button className="btn btn-color">Get Started</button>
       </div>
       <div className="w-full mt-4">
         <img

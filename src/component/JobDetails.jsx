@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { useParams } from "react-router-dom";
 import { JobContext } from "./Home";
+import toast, { Toaster } from "react-hot-toast";
 
 const JobDetails = () => {
   const { jobId } = useParams();
@@ -27,7 +28,8 @@ const JobDetails = () => {
       cartItem = JSON.parse(storedItem);
       let exist = cartItem.find((ct) => ct === id);
       if (exist) {
-        alert("already added");
+        // alert("already added");
+        toast.error("Already Applied This Job");
       } else {
         cartItem.push(id);
       }
@@ -100,12 +102,13 @@ const JobDetails = () => {
           </div>
           <button
             onClick={() => addtoCart(id)}
-            className="btn btn-primary w-full mt-8"
+            className="btn btn-color w-full mt-8"
           >
             Apply Now
           </button>
         </div>
       </div>
+      <Toaster />
     </div>
   );
 };
