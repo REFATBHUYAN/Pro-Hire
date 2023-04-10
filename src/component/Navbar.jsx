@@ -28,6 +28,14 @@ const Navbar = () => {
           >
             <li>
               <NavLink
+                to={"/"}
+                className={({ isActive }) => isActive && "text-purple-500"}
+              >
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
                 to={"/statistics"}
                 className={({ isActive }) => isActive && "text-purple-500"}
               >
@@ -61,6 +69,14 @@ const Navbar = () => {
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
+          <li>
+            <NavLink
+              to={"/"}
+              className={({ isActive }) => isActive && "text-purple-500"}
+            >
+              Home
+            </NavLink>
+          </li>
           <li>
             <NavLink
               to={"/statistics"}
