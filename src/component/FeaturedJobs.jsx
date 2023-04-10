@@ -6,7 +6,7 @@ const FeaturedJobs = () => {
   const allData = useContext(JobContext);
   const [data, setData] = useState(allData.slice(0, 4));
   const [toggle, setToggle] = useState(true);
-  console.log(data);
+  // console.log(data);
   const showAllJobs = () => {
     setData(allData);
     setToggle(false);
@@ -23,7 +23,7 @@ const FeaturedJobs = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 m-5 mx-auto">
         {data.map((dt) => (
-          <SingleJob key={data.id} data={dt}></SingleJob>
+          <SingleJob key={dt.id} data={dt}></SingleJob>
         ))}
       </div>
       {toggle && (

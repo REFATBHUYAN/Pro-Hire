@@ -9,9 +9,6 @@ export const JobContext = createContext({});
 
 const Home = () => {
   const jobDatas = useLoaderData();
-  // const [data, setData] = useState(jobDatas.slice(0, 4));
-  // setData();
-  // console.log(data);
 
   return (
     <div className=" max-w-7xl mx-auto w-full">
