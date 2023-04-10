@@ -39,10 +39,10 @@ const JobDetails = () => {
   };
 
   return (
-    <div className="w-full mx-auto">
+    <div className="w-full mx-auto m-4">
       <h1 className="text-center font-bold text-4xl my-24">Jobs Details</h1>
-      <div className="flex gap-3 w-full mx-auto my-4">
-        <div className="w-3/4 p-4">
+      <div className="md:flex gap-3 w-full mx-auto my-4 ">
+        <div className="w-full md:w-3/4 p-4 ">
           <p className="my-4">
             <span className="font-semibold">Job Description: </span>
             {job_description}
@@ -60,7 +60,7 @@ const JobDetails = () => {
             {experiences}
           </p>
         </div>
-        <div className="w-1/4 bg-purple-200 p-8 rounded-md">
+        <div className="w-full md:w-1/4 bg-purple-200 p-8 rounded-md">
           <div className="w-full">
             <h1 className="font-bold mt-1">Job Details</h1>
             <hr className="border-purple-400 border mt-3 mb-4" />

@@ -14,9 +14,9 @@ const SingleAppliedJob = ({ job }) => {
   } = job;
   return (
     <>
-      <div className="flex gap-4 w-full border-2 border-purple-400 p-8 mb-4 rounded-md">
-        <img className="w-56" src={company_logo} alt="" />
-        <div className="flex justify-between items-center p-4 w-full">
+      <div className="md:flex gap-4 w-full border-2 border-purple-400 p-8 mb-4 rounded-md">
+        <img className="md:w-56" src={company_logo} alt="" />
+        <div className="md:flex justify-between items-center p-4 w-full">
           <div>
             <h1 className="font-bold text-2xl mb-2">{job_title}</h1>
             <h3>{company_name}</h3>
