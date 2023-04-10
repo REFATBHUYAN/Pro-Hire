@@ -36,7 +36,7 @@ const SingleJob = ({ data }) => {
           <p>Salary: {salary}</p>
         </div>
       </div>
-      <Link to={`/${id}`}>
+      <Link to={`/job/${id}`}>
         <button className="py-3 px-5 bg-purple-400 hover:bg-purple-600 text-white rounded-lg font-bold">
           View Details
         </button>

@@ -1,4 +1,5 @@
 import React from "react";
+// import SingleCatagory from "./SingleCatagory";
 
 const JobCatagory = ({ catagory }) => {
   return (

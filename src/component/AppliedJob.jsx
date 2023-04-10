@@ -17,12 +17,22 @@ const AppliedJob = () => {
         applyJob.push(exixst);
       }
     }
-    console.log(applyJob);
+    // console.log(applyJob);
     setJobAdd(applyJob);
   }, []);
   return (
     <div>
       <h1 className="text-center font-bold text-4xl my-32">Applied Jobs</h1>
+      <div>
+        <div class="mb-3 xl:w-96">
+          <select data-te-select-init>
+            <option value="1">One</option>
+            <option value="2" disabled>
+              Two
+            </option>
+          </select>
+        </div>
+      </div>
       <div className="w-3/4 mx-auto mb-32">
         {jobAdd.map((job) => (
           <SingleAppliedJob key={job.id} job={job}></SingleAppliedJob>

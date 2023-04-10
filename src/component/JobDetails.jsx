@@ -1,12 +1,13 @@
 import React, { useContext } from "react";
-import { useLoaderData } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { JobContext } from "./Home";
-import { addToDb } from "../utilites/fakedb";
 
 const JobDetails = () => {
-  const daynamicId = useLoaderData();
+  const { jobId } = useParams();
+  console.log(jobId);
   const allData = useContext(JobContext);
-  let singleJob = allData.find((dt) => dt.id == daynamicId);
+  let singleJob = allData.find((dt) => dt.id == jobId);
+  console.log(singleJob);
   const {
     id,
     job_description,
@@ -18,10 +19,8 @@ const JobDetails = () => {
     contact_information,
     address,
   } = singleJob;
-  //   console.log(singleJob);
 
   const addtoCart = (id) => {
-    console.log("btn clicked");
     let cartItem = [];
     let storedItem = localStorage.getItem("job-item");
     if (storedItem) {

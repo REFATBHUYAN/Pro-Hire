@@ -11,16 +11,19 @@ import FirstPage from "./component/FirstPage";
 import JobDetails from "./component/JobDetails";
 import AppliedJob from "./component/AppliedJob";
 import Statistics from "./component/Statistics";
+import FeaturedJobs from "./component/FeaturedJobs";
+import ErrorPage from "./component/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
+    errorElement: <ErrorPage />,
     loader: () => fetch("fakeJobsData.json"),
     children: [
       {
         path: "/",
-        loader: () => fetch("featuresJob.json"),
+
         element: <FirstPage></FirstPage>,
       },
       {
@@ -32,8 +35,7 @@ const router = createBrowserRouter([
         element: <AppliedJob></AppliedJob>,
       },
       {
-        path: "/:id",
-        loader: ({ params }) => params.id,
+        path: "/job/:jobId",
         element: <JobDetails></JobDetails>,
       },
       {
