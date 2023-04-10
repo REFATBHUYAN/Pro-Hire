@@ -11,7 +11,6 @@ import FirstPage from "./component/FirstPage";
 import JobDetails from "./component/JobDetails";
 import AppliedJob from "./component/AppliedJob";
 import Statistics from "./component/Statistics";
-import FeaturedJobs from "./component/FeaturedJobs";
 import ErrorPage from "./component/ErrorPage";
 
 const router = createBrowserRouter([
