@@ -9,8 +9,8 @@
     "location": "Any",
     "fulltime_or_parttime": "Full-time",
     "salary": "$100,000 - $120,000",
-    "job_description": "We're seeking a talented software engineer to join our team...",
-    "job_responsibility": "Develop and maintain software applications...",
+    "job_description": "We're seeking a talented software engineer to join our team and help us build innovative software products. As a Software Engineer, you will work collaboratively with a team of experienced developers to design, develop, and implement software solutions that meet the needs of our customers",
+    "job_responsibility": "Develop and maintain software applications",
     "educational_requirements": "Bachelor's degree in computer science or related field",
     "experiences": "5+ years of experience in software development",
     "contact_information": {
@@ -28,8 +28,8 @@
     "location": "New York, NY",
     "fulltime_or_parttime": "Full-time",
     "salary": "$80,000 - $100,000",
-    "job_description": "We're looking for a creative and strategic marketing manager...",
-    "job_responsibility": "Develop and execute marketing strategies...",
+    "job_description": "We're looking for a creative and strategic Marketing Manager to lead our marketing initiatives. You will work closely with cross-functional teams to develop and implement marketing campaigns, strategies, and tactics that drive customer engagement and acquisition.",
+    "job_responsibility": "Develop and execute marketing strategies",
     "educational_requirements": "Bachelor's degree in marketing or related field",
     "experiences": "7+ years of experience in marketing",
     "contact_information": {
@@ -47,10 +47,10 @@
     "location": "Any",
     "fulltime_or_parttime": "Full-time",
     "salary": "$70,000 - $90,000",
-    "job_description": "We're seeking a data analyst to join our team...",
-    "job_responsibility": "Analyze data and provide insights to stakeholders...",
-    "educational_requirements": "Bachelor's degree in statistics or related field",
-    "experiences": "3+ years of experience in data analysis",
+    "job_description": "We're seeking a Database Engineer to join our team and help us build and maintain scalable, reliable, and efficient databases. This is an excellent opportunity to work with cutting-edge technology and make an impact on our products.",
+    "job_responsibility": "Analyze data and provide insights to stakeholders",
+    "educational_requirements": "Bachelor's degree in CSE",
+    "experiences": "3+ years of experience in Related field",
     "contact_information": {
       "phone": "+1 555-555-9012",
       "email": "jobs@tesla.com"
@@ -66,10 +66,10 @@
     "location": "San Francisco, CA",
     "fulltime_or_parttime": "Part-time",
     "salary": "$50,000 - $70,000",
-    "job_description": "We're looking for a talented graphic designer to join our team...",
-    "job_responsibility": "Create visually appealing designs for various projects...",
-    "educational_requirements": "Bachelor's degree in graphic design or related field",
-    "experiences": "2+ years of experience in graphic design",
+    "job_description": "We're looking for a talented Web Designer to join our team and help us create visually appealing and user-friendly websites. This is an exciting opportunity to work with a dynamic team and shape the user experience of our products.",
+    "job_responsibility": "Create visually appealing designs for various projects with React",
+    "educational_requirements": "Bachelor's degree in CSE or Related Field",
+    "experiences": "2+ years of experience in Front End",
     "contact_information": {
       "phone": "+1 555-555-2345",
       "email": "jobs@airbnb.com"
@@ -85,8 +85,8 @@
     "location": "Los Angeles, CA",
     "fulltime_or_parttime": "Full-time",
     "salary": "$90,000 - $110,000",
-    "job_description": "We're seeking a dynamic sales manager to join our team...",
-    "job_responsibility": "Manage and lead sales team to meet revenue targets...",
+    "job_description": "We're seeking a dynamic Sales Manager to lead our sales team and drive revenue growth. This is a great opportunity to work in a fast-paced, dynamic environment and make an impact on our business.",
+    "job_responsibility": "Manage and lead sales team to meet revenue targets",
     "educational_requirements": "Bachelor's degree in business or related field",
     "experiences": "5+ years of experience in sales management",
     "contact_information": {
@@ -104,8 +104,8 @@
     "location": "Any",
     "fulltime_or_parttime": "Part-time",
     "salary": "$30 - $40 per hour",
-    "job_description": "We're looking for a talented content writer to join our team...",
-    "job_responsibility": "Write engaging and informative articles for our blog...",
+    "job_description": "We're looking for a talented Content Writer to join our team and create high-quality, engaging content that resonates with our audience. This is a great opportunity to work with a dynamic team and make an impact on our brand.",
+    "job_responsibility": "Write engaging and informative articles for our blog",
     "educational_requirements": "Bachelor's degree in English, journalism, or related field",
     "experiences": "2+ years of experience in content writing",
     "contact_information": {

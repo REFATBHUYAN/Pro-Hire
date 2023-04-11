@@ -3,7 +3,12 @@ import React from "react";
 const Blog = () => {
   return (
     <>
-      <h1 className="text-5xl text-center font-bold my-16">Blogs</h1>
+      <h1 className="text-5xl text-center font-bold mt-16">Blogs</h1>
+      <p className="text-center text-lg mb-16 mt-5">
+        Check out our blog for answers to the most commonly asked questions
+        about React. Our concise and informative posts will help you gain a
+        better understanding of this popular JavaScript library
+      </p>
       <div className="p-5 rounded-md border bg-purple-100 my-2 mt-5">
         <h1 className="font-bold text-2xl mb-4">
           1. When should you use Context API?

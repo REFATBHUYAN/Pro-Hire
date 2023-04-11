@@ -39,7 +39,11 @@ const AppliedJob = () => {
 
   return (
     <div>
-      <h1 className="text-center font-bold text-4xl my-32">Applied Jobs</h1>
+      <h1 className="text-center font-bold text-4xl mt-24">Applied Jobs</h1>
+      <p className="text-center text-lg mb-24 mt-5">
+        Here are the jobs you have already applied for. You can filter the jobs
+        you have applied for using the filter section.
+      </p>
       <div className="w-3/4 mx-auto mb-32">
         <div className="text-end mb-5">
           <select

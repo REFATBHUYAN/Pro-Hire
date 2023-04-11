@@ -51,11 +51,11 @@ export default class Example extends PureComponent {
   render() {
     return (
       <div className="my-20">
-        <div className="mb-10">
+        <div className="mb-16">
           <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4 mx-auto mt-12 items-center">
             <div className="w-full pl-4">
               {/* className="md:flex mx-5 mt-8 w-full" */}
-              <h1 className="font-bold text-4xl md:text-7xl">
+              <h1 className="font-bold text-3xl md:text-5xl">
                 Exploring the World of
                 <br /> <span className="text-purple-400">Statistics</span>{" "}
                 <br />: Assignment Marks
