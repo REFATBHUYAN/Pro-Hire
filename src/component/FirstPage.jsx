@@ -6,7 +6,7 @@ import FeaturedJobs from "./FeaturedJobs";
 const FirstPage = () => {
   const [jobCatagory, setJobCatagory] = useState([]);
   useEffect(() => {
-    fetch("featuresJob.json")
+    fetch("/featuresJob.json")
       .then((res) => res.json())
       .then((data) => setJobCatagory(data));
   }, []);
