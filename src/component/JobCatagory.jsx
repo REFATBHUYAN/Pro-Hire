@@ -3,7 +3,7 @@ import React from "react";
 
 const JobCatagory = ({ catagory }) => {
   return (
-    <section className="my-32 mx-4">
+    <section className="my-32 px-4 mx-auto max-w-7xl">
       <div className="text-center">
         <h1 className="text-5xl font-bold">Job Category List</h1>
         <p className="my-4">
@@ -15,7 +15,7 @@ const JobCatagory = ({ catagory }) => {
         {catagory.map((cata) => (
           <div
             key={cata.id}
-            className="w-full md:w-[312px] h-[243px] bg-purple-100 p-10 rounded-lg sm:my-4 mx-auto"
+            className="w-full md:w-[312px] h-[243px] bg-purple-100 p-10 rounded-lg sm:my-4 "
           >
             <img className="w-[70px]" src={cata.logo} alt="" />
             <h2 className="text-xl font-bold mt-8 mb-2">{cata.title}</h2>

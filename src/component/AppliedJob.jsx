@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { JobContext } from "./Home";
 import SingleAppliedJob from "./SingleAppliedJob";
+import Navbar from "./Navbar";
 
 const AppliedJob = () => {
   const getJobsData = useContext(JobContext);
@@ -39,12 +40,20 @@ const AppliedJob = () => {
 
   return (
     <div>
-      <h1 className="text-center font-bold text-4xl mt-24">Applied Jobs</h1>
-      <p className="text-center text-lg mb-24 mt-5">
-        Here are the jobs you have already applied for. You can filter the jobs
-        you have applied for using the filter section.
-      </p>
-      <div className="w-3/4 mx-auto mb-32">
+      <div className="bg-gray-100 rounded -mt-16">
+        <div className="md:flex justify-between">
+          <img className="w-[250px] h-[250px]" src="/Icons/Vector.png" alt="" />
+          <h1 className=" text-5xl text-center font-bold my-20 pt-12">
+            Applied Jobs
+          </h1>
+          <img
+            className="w-[244px] h-[244px]"
+            src="/Icons/Vector-1.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div className="w-3/4 mx-auto my-28">
         <div className="text-end mb-5">
           <select
             className="border-purple-500 border rounded-md"

@@ -9,6 +9,7 @@ import {
   ResponsiveContainer,
   Legend,
 } from "recharts";
+import Navbar from "./Navbar";
 
 const data = [
   {
@@ -50,32 +51,22 @@ export default class Example extends PureComponent {
 
   render() {
     return (
-      <div className="my-20">
-        <div className="mb-16">
-          <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4 mx-auto mt-12 items-center">
-            <div className="w-full pl-4">
-              {/* className="md:flex mx-5 mt-8 w-full" */}
-              <h1 className="font-bold text-3xl md:text-5xl">
-                Exploring the World of
-                <br /> <span className="text-purple-400">Statistics</span>{" "}
-                <br />: Assignment Marks
-              </h1>
-              <p className="w-full my-5">
-                View your assignment results with ease. Our user-friendly
-                platform allows you to access your grades and feedback in
-                real-time, so you can track your progress and stay on top of
-                your academic goals. Get detailed insights and personalized
-                recommendations to help you improve and excel in your future
-                assignments.
-              </p>
-            </div>
-            <div className="w-full mt-4">
-              <img
-                className="border-2 border-purple-700 rounded-full w-3/4 mx-auto"
-                src="https://i.ibb.co/5YW7Wf8/download.jpg"
-                alt="banner photo"
-              />
-            </div>
+      <div className="mb-20">
+        <div className="bg-gray-100 rounded -mt-16 mb-10">
+          <div className="md:flex justify-between">
+            <img
+              className="w-[250px] h-[250px]"
+              src="/Icons/Vector.png"
+              alt=""
+            />
+            <h1 className=" text-5xl text-center font-bold my-20 pt-12">
+              Statistics
+            </h1>
+            <img
+              className="w-[244px] h-[244px]"
+              src="/Icons/Vector-1.png"
+              alt=""
+            />
           </div>
         </div>
         <ResponsiveContainer width="100%" height={400}>

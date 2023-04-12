@@ -13,7 +13,7 @@ const FeaturedJobs = () => {
   };
 
   return (
-    <section className="mx-5 mb-32">
+    <section className="mx-5 mb-32 max-w-7xl mx-auto">
       <div className="text-center mb-8">
         <h1 className="font-bold text-5xl mb-4">Featured Jobs</h1>
         <p>

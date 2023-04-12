@@ -40,9 +40,22 @@ const JobDetails = () => {
   };
 
   return (
-    <div className="w-full mx-auto m-4">
-      <h1 className="text-center font-bold text-4xl my-24">Jobs Details</h1>
-      <div className="md:flex gap-3 w-full mx-auto my-4 ">
+    <div className="w-full mx-auto">
+      <div className="bg-gray-100 rounded -mt-16">
+        <div className="md:flex justify-between">
+          <img className="w-[250px] h-[250px]" src="/Icons/Vector.png" alt="" />
+          <h1 className=" text-5xl text-center font-bold my-20 pt-12">
+            Jobs Details
+          </h1>
+          <img
+            className="w-[244px] h-[244px]"
+            src="/Icons/Vector-1.png"
+            alt=""
+          />
+        </div>
+      </div>
+      {/* <h1 className="text-center font-bold text-4xl my-24">Jobs Details</h1> */}
+      <div className="md:flex gap-3 max-w-7xl mx-auto my-4 ">
         <div className="w-full md:w-3/4 p-4 ">
           <p className="my-4">
             <span className="font-semibold">Job Description: </span>

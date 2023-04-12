@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="relative navbar bg-base-100">
+    <div className="max-w-7xl mx-auto navbar  opacity-100">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -64,7 +64,7 @@ const Navbar = () => {
           to={"/"}
           className="btn btn-ghost normal-case text-2xl md:text-4xl font-bold text-purple-700"
         >
-          ProHire
+          <span className="text-black">pro</span> Hire
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
@@ -103,8 +103,8 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
-        <a className="btn btn-color">Start Applying</a>
+      <div className="navbar-end hover:cursor-pointer">
+        <p className="btn btn-color">Start Applying</p>
       </div>
     </div>
   );
