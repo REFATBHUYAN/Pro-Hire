@@ -7,13 +7,13 @@ const Blog = () => {
       <div className="bg-gray-100 rounded -mt-16">
         <div className="md:flex justify-between">
           <img
-            className="w-[250px] h-[250px] sm:hidden"
+            className="w-[250px] h-[250px] "
             src="/Icons/Vector.png"
             alt=""
           />
           <h1 className=" text-5xl text-center font-bold my-20 pt-12">Blogs</h1>
           <img
-            className="w-[244px] h-[244px] sm:hidden"
+            className="w-[244px] h-[244px]"
             src="/Icons/Vector-1.png"
             alt=""
           />
